@@ -2,12 +2,12 @@
   "name": "lab5",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mmya2300.github.io/workoutApp",
-  
+  "homepage": "https://mmya2300.github.io/workout-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
