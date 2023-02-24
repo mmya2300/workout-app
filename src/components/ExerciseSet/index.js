@@ -48,7 +48,7 @@ export default function ExerciseSet(props) {
       {selectedWorkouts.length > 0 && (
         <>
           <button onClick={clearSelectedWorkouts}>Clear Selection</button>
-          <button onClick={() => console.log("thanks for testing")}>Start Set</button>
+          <button onClick={() => alert("thanks for testing")}>Start Set</button>
         </>
       )}
 
