@@ -70,7 +70,9 @@ function App() {
       } 
       else { // this is just the default main menu if nothing is pressed
         return ( 
-              <> 
+              <>
+              <br/>
+              <br/>
               <h1>Workouts</h1>
               <h2>Please Choose an exercise</h2>
               <ul className="menuButtons">
