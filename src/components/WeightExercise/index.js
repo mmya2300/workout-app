@@ -36,6 +36,7 @@ export default function WeightExercise(props) {
   }
 
   // countdown effects for lifting, holding, and breaking
+  // lifting
   useEffect(() => {
     let timerId;
     if (isLifting && timer > 0) {
@@ -52,6 +53,8 @@ export default function WeightExercise(props) {
     };
     }, [isLifting, holdTime, timer]);
 
+
+    //holding
     useEffect(() => {
     let timerId;
     if (isHolding && timer > 0) {
@@ -67,6 +70,7 @@ export default function WeightExercise(props) {
   };
   }, [isHolding, timer]);
 
+//breaking
   useEffect(() => {
   let timerId;
   if (isBreaking && timer < 60) {

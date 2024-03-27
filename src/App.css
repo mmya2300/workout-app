@@ -16,6 +16,7 @@ body {
   align-items: center;
   background-color: white;
   font-family: 'DotGothic16';
+  min-height: 95vh;
 }
 .content{
   height: 470px;
