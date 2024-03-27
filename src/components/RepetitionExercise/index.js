@@ -12,7 +12,7 @@ export default function RepetitionExercise(props) {
       setCount(0)
    }
   return (
-    <div>
+    <div className="main">
       <h2>{name}</h2>
       <img src={img[0].name} alt={img[0].altText}></img>
       <p>{ // makes the count start at 00, turns the count to a string and pads the string with a zero unitl it hits a certain amount with 2 being the target length

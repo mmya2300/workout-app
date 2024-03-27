@@ -94,12 +94,12 @@ export default function WeightExercise(props) {
   }
 
  return (
-  <div>
+  <div className="main">
     <h2>{name}</h2>
     <br/>
     <img src={isLifting ? img[1].name : isHolding ? img[0].name : img[2].name} alt={isLifting ? img[1].altText : isHolding ? img[0].altText : img[2].altText}  />
     <br/>
-    <form onSubmit={handleSubmit}>
+    <form className='list' onSubmit={handleSubmit}>
       <label>
         Weight:
         <input type="number" value={weight} onChange={handleWeightChange} />

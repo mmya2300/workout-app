@@ -46,10 +46,6 @@ function App() {
       { name: breakPose, altText: "person taking a break" }
     ]
   },
-  {
-    name: "Sets",
-    type: "userCreated",
-  }
 ];
   // makes it so the value in selectedWorkout is based on what object is clicked
   function handleWorkoutClick(workout) {
@@ -64,18 +60,14 @@ function App() {
           return <RepetitionExercise name={selectedWorkout.name}  img={selectedWorkout.img} />
       } else if(selectedWorkout.type === "weights") {
          return <WeightExercise selectedWorkout={selectedWorkout} />;
-      } else {
-        return <ExerciseSet workouts={workouts} />
       }
       } 
       else { // this is just the default main menu if nothing is pressed
         return ( 
-              <>
-              <br/>
-              <br/>
+              <div className="content">
               <h1>Workouts</h1>
               <h2>Please Choose an exercise</h2>
-              <ul className="menuButtons">
+              <ul className="workout-list">
                 {workouts.map((workout) => (
                 <li key={workout.name}>
                   <button onClick={() => handleWorkoutClick(workout)}
@@ -83,17 +75,17 @@ function App() {
                 </li>
               ))}
               </ul>
-            </>
+            </div>
               )
           }
         }
      
   return (
     <div className="main">
-      <div className="content">
+      
           {// returns the renderworkout function to be placed in content
           renderWorkout()}
-      </div>
+     
     </div>
   );
 }

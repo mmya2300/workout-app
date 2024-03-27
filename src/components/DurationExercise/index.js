@@ -41,7 +41,7 @@ export default function DurationExercise(props) {
     return date.toISOString().substring(11, 23)
   }
   return (
-    <div>
+    <div className="main">
       <h2>{name}</h2>
     <img src={img[0].name} alt={img[0].altText}></img>
       <p>{formatTime(time)}</p>
