@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/workout-app/static/css/main.9c507b23.css",
+    "main.css": "/workout-app/static/css/main.2c60eebe.css",
     "main.js": "/workout-app/static/js/main.ac6cbca3.js",
     "static/js/787.90895c91.chunk.js": "/workout-app/static/js/787.90895c91.chunk.js",
     "static/media/weight_holdPose.png": "/workout-app/static/media/weight_holdPose.d3f16fe92d268061a519.png",
@@ -9,12 +9,12 @@
     "static/media/running_duration.png": "/workout-app/static/media/running_duration.e04a516a0d244ad29f17.png",
     "static/media/weight_liftPose.png": "/workout-app/static/media/weight_liftPose.5257eedbb03911d9fc76.png",
     "index.html": "/workout-app/index.html",
-    "main.9c507b23.css.map": "/workout-app/static/css/main.9c507b23.css.map",
+    "main.2c60eebe.css.map": "/workout-app/static/css/main.2c60eebe.css.map",
     "main.ac6cbca3.js.map": "/workout-app/static/js/main.ac6cbca3.js.map",
     "787.90895c91.chunk.js.map": "/workout-app/static/js/787.90895c91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c507b23.css",
+    "static/css/main.2c60eebe.css",
     "static/js/main.ac6cbca3.js"
   ]
 }
